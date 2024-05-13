@@ -10,7 +10,7 @@ class MainEntry:
         spec.loader.exec_module(module)
 
 if __name__ == "__main__":
-    ##sys.argv  = ["test","scripts/print.py"]
+    ##sys.argv  = ["test","scripts/print/print.py"]
     if len(sys.argv) != 2:
         sys.exit(1)
     
